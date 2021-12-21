@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="kal.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" ">
+    <title>Avtokredit Hisoblagiz</title>
+</head>
+
+<body>
+
+    <div class="container mt-5 ">
+        <div class="row input_group d-flex justify-content-center">
+            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                <h1>KREDITNI HISOBLANG</h1>
+                <P>* Diqqat, kalkulyator hisob-kitoblarning aniqligini kafolatlamaydi.</P>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 smal_cont align-items-center">
+                <span id="span">Kredit miqdori:</span>
+                <input id="inputs1" type="number" value="1000000"><span class="span">so'm</span>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <span id="span">Kredit muddati:</span>
+                <input id="inputs2" type="number"><span class="span">oy</span>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <span id="span">To'lovni to'lash</span>
+                <input id="inputs3" type="number"><span class="span">%</span>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                <span id="span">yillik foiz stavkasi:</span>
+                <input id="inputs4" type="number"><span class="span">%</span>
+            </div>
+            <div class="col-lg-12 col-12 text-center">
+                <button onclick="hisobla()">HIsoblash </button>
+            </div>
+        </div>
+
+        <div id="resul_pagee" class="row resul_page justify-content-center text-center">
+            <div class="col-lg-12">
+                <h2>KREDIT MALUMOTLARI</h2>
+            </div>
+            <div class="col-lg-3">
+
+                <p id="malumot1"></p>
+                <h6>Kredit nomi</h6>
+            </div>
+            <div class="col-lg-3">
+                <p id="malumot2"></p>
+                <h6>Muddati</h6>
+            </div>
+            <div class="col-lg-3">
+                <p id="malumot3"></p>
+                <h6>yillik foiz stavkasi</h6>
+            </div>
+            <div class="col-lg-3">
+                <p id="malumot4"></p>
+                <h6>kredit to'liq qiymati</h6>
+            </div>
+        </div>
+
+        <div  id="resul_page_two" class="row resul_page_two">
+            <table id="myTable" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Oy</th>
+                        <th>Kredit balansi</th>
+                        <th>Asosiy qarz</th>
+                        <th>Foiz</th>
+                        <th>Jami oylik to'lov</th>
+                    </tr>
+                </thead>
+                <tbody id="mytBody">
+
+                </tbody>
+
+
+                <!-- <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody> -->
+            </table>
+
+            <table id="myTable2" class="mt-1 table table-striped ">
+                <tbody>
+                    <tr>
+
+                        <th>Oy</th>
+                        <th>Kredit balansi</th>
+                        <th>Asosiy qarz</th>
+                        <th>Foiz</th>
+
+                        <th>Jami oylik to'lov</th>
+
+                    </tr>
+                    <tr>
+                        <td>Jami</td>
+                        <td id="td1"></td>
+                        <td id="td2"></td>
+                        <td id="td3"></td>
+                        <td id="td4"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h5>Created By Boybekov Javohir</h5>
+               <a href="https://www.instagram.com/javohir_off77/"> <i class="fab fa-instagram"></i></a>
+               <a href="https://t.me/javohir_coder1"><i class="fab fa-telegram"></i></a> 
+               <a href="https://fullstoc.github.io/"><i class="fas fa-code"></i></a> 
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

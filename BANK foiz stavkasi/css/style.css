@@ -1,0 +1,213 @@
+body{
+   background:rgb(0, 0, 78);
+    background-size: cover;
+ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 40px 0;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+button a{
+    color: slategray;
+    text-decoration: red !important;
+    list-style: none;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+input{
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: slategray;
+}
+.input_group #span{
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+
+}
+.input_group .span{
+    padding: 11px 5px 12px 5px;
+    background: white;
+    color: slategrey;
+}
+button{
+    outline:none !important;
+background: white;
+    border:none;
+    padding: 10px 100px;
+    margin-top: 20px;
+    color: slategrey;
+    transition: 0.30s linear;
+  
+}
+button:hover{
+    background:rgba(1, 1, 31, 0.932) ;
+   border: none;
+   box-sizing: content-box;
+}
+
+.resul_page{
+   margin-top: 100px;
+    background: rgba(1, 1, 31, 0.932);
+    backdrop-filter: blur(30px) ;
+    opacity: 0;
+    transition: 0.50s ease;
+}
+.resul_page p{
+
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+}
+.resul_page h6{
+
+    font-size: 15px;
+    font-weight: 400;
+    color: slategrey;
+}
+
+.resul_page h2{
+   text-align: center;
+    font-weight: 400;
+    color: slategrey;
+    margin-bottom: 30px;
+}
+
+.resul_page_two{
+     width: 100%;
+     margin-left: 3px;
+     background: rgba(1, 1, 31, 0.932);
+     backdrop-filter: blur(30px) ;
+    margin-top: 100px;
+    display: none;
+    transition: 0.30s ease;
+}
+
+#myTable2 tr th{
+   color:rgba(1, 1, 31, 0.932) ;
+}
+table  tr th{
+   color: slategrey;
+   font-size: 19px;
+}
+table thead{
+   margin-left: 100px;
+}
+
+table thead  tr td{
+    padding: 10px 0;
+    color: white;
+}
+
+table tbody  tr td{
+    padding: 10px 0;
+    color: white;
+    font-size: 18px;
+}
+h5{
+    color: white;
+}
+.fab{
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+    transition: 0.30s ease;
+}
+.fas{
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+    transition: 0.30s ease;
+}
+.fas:hover{
+    color: black;
+    
+}
+.fab:hover{
+    color: black;
+    font-size: 25px;
+    margin: 10px;
+}
+@media (max-width:1200px){
+  
+}
+
+@media (max-width:992px){
+
+}
+
+@media (max-width:768px){
+   
+     table  tr th{
+        color: slategrey;
+        font-size: 16px;
+     }
+     /* table tbody  tr td{
+        padding: 10px 0;
+        color: white;
+        font-size: 14px;
+    }
+     */
+}
+
+@media (max-width:576px){
+ 
+     table  tr th{
+        color: slategrey;
+        font-size: 13px;
+     }
+     table tbody  tr td{
+        padding: 10px 0;
+        color: white;
+        font-size: 13px;
+    }
+}
+
+@media (max-width:410px){
+    table  tr td{
+        color: slategrey;
+        font-size: 12px;
+    }
+
+    table tbody tr td {
+        color: white;
+        font-size: 12px;
+    }
+  
+  
+}
+@media (max-width:352px){
+ 
+    table  tr th{
+       color: slategrey;
+       font-size: 8px;
+    }
+    table tbody  tr td{
+       padding: 10px 0;
+       color: white;
+       font-size: 10px;
+   }
+   .smal_cont{
+       width: 100% !important;
+   }
+   input{
+       width: 80%;
+       font-size: 7px;
+   }
+   .span {
+       font-size: 7px;
+       padding: 10px 5px 11px 5px !important;
+   }
+  
+}
